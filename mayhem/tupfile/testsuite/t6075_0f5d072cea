@@ -1,0 +1,1 @@
+: foreach foo* |> echo %e |>

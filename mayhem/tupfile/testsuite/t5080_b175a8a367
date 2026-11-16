@@ -1,0 +1,3 @@
+: |> ^o^ echo blah > %o |> foo
+: foo |> ^o^ ./ok1.sh > %o |> bar
+: bar |> ^o^ ./ok2.sh |>

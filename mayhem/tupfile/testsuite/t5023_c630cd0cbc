@@ -1,0 +1,3 @@
+: foreach *.c |> gcc -c %f -o %o |> %B.o
+: *.o | b/libfoo.a |> gcc %f -La -Lb -lfoo -o %o |> prog.exe
+: prog.exe |> ./%f > %o |> output.txt

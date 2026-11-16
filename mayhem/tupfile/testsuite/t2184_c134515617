@@ -1,0 +1,9 @@
+files += f1.e
+files += f2.e
+files += f3.e
+files += f/f4.e
+libs += l1
+libs += l2
+libs += l3
+libs += l4
+: test1 \$(files) \$(libs) |> cmd T %1f F %2f b %2b B %2B L %3f O %1o 2 %2o |> \$(empty) out2

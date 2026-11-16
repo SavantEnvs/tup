@@ -1,0 +1,9 @@
+function ld_linux(objlist, obj)
+	objlist.extra_inputs += 'foo.h'
+	tup.rule(objlist, 'sh ok.sh', obj)
+end
+
+tup.rule('touch %o', {'foo.h'})
+objlist = {'foo.c'}
+obj = 'output.txt'
+ld_linux(objlist, obj)

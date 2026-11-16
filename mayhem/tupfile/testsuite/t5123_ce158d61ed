@@ -1,0 +1,12 @@
+: |> touch %o |> out1
+: out1 |> touch %o |> out2
+: out2 |> touch %o |> out3
+: out3 |> touch %o |> out4
+: out4 |> touch %o |> out5
+: out5 |> touch %o |> out6
+: out6 |> touch %o |> out7
+: out7 |> touch %o |> out8
+: out8 |> touch %o |> out9
+: out9 |> touch %o |> out10
+: out10 |> touch %o |> out11
+: out11 |> touch %o |> out12

@@ -1,0 +1,3 @@
+: bar.c |> gcc -c bar.c -o bar.o |> bar.o
+: foo.c bar.o |> gcc -c foo.c -o foo.o |> foo.o
+: *.o |> gcc %f -o %o |> prog.exe

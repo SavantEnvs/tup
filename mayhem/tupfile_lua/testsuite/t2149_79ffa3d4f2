@@ -1,0 +1,3 @@
+-- Make sure foo is parsed first
+tup.rule({'../foo/foo.txt'}, 'echo hey')
+print "BAR"

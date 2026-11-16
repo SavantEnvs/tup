@@ -1,0 +1,4 @@
+: |> ^o sh ok.sh^ sh ok.sh |> a b c
+: a |> cat a |>
+: b |> cat b |>
+: c |> cat c |>

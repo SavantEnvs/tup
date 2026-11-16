@@ -1,0 +1,4 @@
+ifdef FOO
+objs-y += foo.c
+endif
+: foreach \$(objs-y) |> gcc -c %f -o %o |> %B.o

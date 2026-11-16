@@ -1,0 +1,3 @@
+: foreach foo.c bar.c |> gcc -c %f -o %o |> %B.o {objs}
+: {objs} |> gcc %f -o %o |> prog
+: *.o |> test %f |>

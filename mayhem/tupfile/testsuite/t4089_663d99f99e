@@ -1,0 +1,3 @@
+: |> touch bar |> bar
+: |> touch baz |> baz
+: |> echo baz |>

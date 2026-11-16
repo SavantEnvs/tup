@@ -1,0 +1,1 @@
+: |> echo first > %o && echo second > sub/%o.2 |> myblah out/file.txt | sub/%O.txt.2

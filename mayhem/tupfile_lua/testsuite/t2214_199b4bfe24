@@ -1,0 +1,1 @@
+tup.rule('{bin}', 'cat %f > %o', {'out.txt', bin='{luabin}'})

@@ -1,0 +1,5 @@
+pages += 'foo.html'
+pages += 'bar.html'
+flags += '-x'
+flags_foo += '-y'
+tup.foreach_rule(pages, 'echo %f \$(flags) \$(flags_%B)')

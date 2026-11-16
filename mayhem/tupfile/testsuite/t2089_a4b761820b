@@ -1,0 +1,3 @@
+.gitignore
+: |> touch %o |> foo
+borkbork

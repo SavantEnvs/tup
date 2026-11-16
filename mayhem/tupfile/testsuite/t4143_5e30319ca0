@@ -1,0 +1,2 @@
+: |> echo foo > %o |> foo/bar/baz
+: |> echo blah > %o |> foo/bar/baz/bif

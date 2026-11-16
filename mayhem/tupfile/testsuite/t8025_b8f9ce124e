@@ -1,0 +1,3 @@
+ifeq (@(FOO),y)
+: |> touch %o |> foo
+endif

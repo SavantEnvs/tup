@@ -1,0 +1,2 @@
+: |> touch %o |> out.txt <group>
+: |> echo foo |> ^/ignore

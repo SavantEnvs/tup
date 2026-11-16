@@ -1,0 +1,2 @@
+preload ../..
+run sh -e ok.sh

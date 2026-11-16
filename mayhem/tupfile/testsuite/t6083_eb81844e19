@@ -1,0 +1,2 @@
+: foreach *.c |> gcc %f -o %o -pthread |> %B
+: ok prog |> ./ok |>

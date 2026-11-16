@@ -1,0 +1,2 @@
+: |> touch %o |> a.txt
+&node_var = a.txt

@@ -1,0 +1,2 @@
+TOP = \$(TUP_CWD)
+!cc = |> gcc -c %f -o %o |> \$(TOP)/%B.o \$(TOP)/<group>

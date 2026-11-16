@@ -1,0 +1,2 @@
+!compile = |> gcc %f --coverage -o %o |> %B.exe | %B.gcno
+: foreach *.c |> !compile |>

@@ -1,0 +1,4 @@
+: |> echo foo > %o |> foo.txt {bin}
+: |> echo bar > %o |> bar.txt {bin}
+include rules.lua
+: {luabin} |> echo %f |>

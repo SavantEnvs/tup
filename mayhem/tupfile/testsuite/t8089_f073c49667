@@ -1,0 +1,2 @@
+include_rules
+: \$(MY_ROOT)/init/foo |> cat %f > %o |> out.txt

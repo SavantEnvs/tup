@@ -1,0 +1,4 @@
+: |> cat bar.h > bar.o |> bar.o
+: |> cat foo.h bar.h > foo.o |> foo.o
+: foo.o |> cat foo.o > out.txt |> out.txt
+: |> cat bar.h foo.h > blah.h |> blah.h

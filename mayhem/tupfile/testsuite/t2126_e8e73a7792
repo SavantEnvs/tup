@@ -1,0 +1,4 @@
+files_foo.in += foo1.out
+files_foo.in += foo2.out
+files_bar.in += bar1.out
+: foreach *.in |> echo %f > %o |> \$(files_%f)

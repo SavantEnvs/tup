@@ -1,0 +1,2 @@
+tup.definerule{command = 'touch a.txt', outputs = {'a.txt'}}
+node_var = tup.nodevariable 'a.txt'

@@ -1,0 +1,5 @@
+local outputs = {}
+for line in io.lines('data.txt') do
+	outputs += line
+end
+tup.rule({}, 'touch %o', outputs)

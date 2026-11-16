@@ -1,0 +1,4 @@
+!cc = foreach |> gcc -c %f -o %o |> %B.o
+
+: foo.c |> !cc |>
+: bar.c |> !cc |> %B.newo

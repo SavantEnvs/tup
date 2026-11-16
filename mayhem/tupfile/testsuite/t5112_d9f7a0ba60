@@ -1,0 +1,2 @@
+: |> ^t^ echo foo > %o |> tmp.txt
+: tmp.txt |> cp %f %o |> bar.txt

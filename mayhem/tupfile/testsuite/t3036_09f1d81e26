@@ -1,0 +1,6 @@
+!cc = |> gcc -c %f -o %o |> %B.o
+!ld = |> ./ok.sh %o %f |> | %O.lib %O.exp
+!ld2 = !ld
+
+: foreach *.c |> !cc |> {objs}
+: {objs} |> !ld2 |> out.dll

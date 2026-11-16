@@ -1,0 +1,2 @@
+tup.foreach_rule('*.c', 'gcc -c %f -o %o', '%B.o')
+tup.rule({'*.o', extra_inputs={LIBS_DIR .. '/<libs>'}}, 'gcc %f -L' .. LIBS_DIR .. ' -lfoo -o %o', 'main.exe')

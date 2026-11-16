@@ -1,0 +1,3 @@
+EXT_txt = out
+EXT_src = obj
+: foreach *.src *.txt |> cp %f %o |> %B.\$(EXT_%e)

@@ -1,0 +1,3 @@
+obj-@(OK) += foo.c
+obj-@(OK) += bar.c
+: foreach \$(obj-y) |> gcc -c %f -o %o |> %B.o

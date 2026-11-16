@@ -1,0 +1,10 @@
+include_rules
+ifeq (@(DEBUG),y)
+: |> touch %o |> foo
+endif
+ifeq (\$(var),y y)
+: |> touch %o |> bar
+endif
+ifeq (\$(var),n y)
+: |> touch %o |> baz
+endif

@@ -1,0 +1,2 @@
+: |> FOO="hey"; export FOO; echo \$FOO |>
+: |> echo \\\$(ls) |>

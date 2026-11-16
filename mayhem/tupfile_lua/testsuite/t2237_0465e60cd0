@@ -1,0 +1,1 @@
+tup.rule("echo " .. string.gsub("foo", "o", "u"))

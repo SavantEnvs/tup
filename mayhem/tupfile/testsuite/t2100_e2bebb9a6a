@@ -1,0 +1,6 @@
+!touch = |> touch %o |>
+!cp = |> cp %f %o |> %f.copy
+run ./gen.sh
+: |> !touch |> c.cc c.h {cc}
+: foreach *.cc | {cc} |> !cp |> {copies}
+: foreach {copies} |> !cp |> {copies2}

@@ -1,0 +1,2 @@
+: |> touch %o |> foo | <group>
+: <group> |> echo %<group> > %o |> test.txt

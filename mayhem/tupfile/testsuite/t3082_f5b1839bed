@@ -1,0 +1,3 @@
+export FOO
+: |> cat input.txt > %o |> bar.txt | <group>
+: |> sh ok.sh |> output.txt env.txt

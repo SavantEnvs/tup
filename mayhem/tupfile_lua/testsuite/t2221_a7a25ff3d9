@@ -1,0 +1,3 @@
+tup.include 'vars.lua'
+tup.foreach_rule('*.c', '\$(CC) -c %f -o %o \$(CCARGS)', '%B.o')
+tup.rule('*.o', '\$(CC) -o %o %f', 'prog.exe')

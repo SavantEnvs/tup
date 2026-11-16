@@ -1,0 +1,3 @@
+.gitignore
+: foreach *.c |> gcc -c %f -o %o |> %B.o
+: foreach *.c |> gcc -c %f -o %o |> sub/%B.o

@@ -1,0 +1,1 @@
+: |> echo 'foo\$' | sed 's/o\\\$/3/' > %o |> out.txt

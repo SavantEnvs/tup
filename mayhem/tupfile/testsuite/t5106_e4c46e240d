@@ -1,0 +1,1 @@
+: |> ^ot^ echo foo > tmp.txt |> tmp.txt

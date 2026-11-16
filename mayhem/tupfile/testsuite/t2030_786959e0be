@@ -1,0 +1,2 @@
+: |> ./ok.sh > %o |> output.txt
+: foreach g* |> cat %f |>

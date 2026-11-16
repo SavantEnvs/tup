@@ -1,0 +1,2 @@
+!macro = blah |> cat %f |>
+: foreach *.c |> !macro |>

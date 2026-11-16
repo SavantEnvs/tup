@@ -1,0 +1,1 @@
+: |> touch %o |> out1 out1 out2 out2

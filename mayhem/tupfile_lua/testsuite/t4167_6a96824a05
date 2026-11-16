@@ -1,0 +1,1 @@
+tup.rule('echo hey > %o', {'foo/bar.txt'})

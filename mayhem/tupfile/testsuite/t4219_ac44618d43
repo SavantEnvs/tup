@@ -1,0 +1,1 @@
+: foreach *.c |> gcc -c %f -o %o && touch license |> %B.o ^license

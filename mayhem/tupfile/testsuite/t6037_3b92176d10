@@ -1,0 +1,1 @@
+: sub sub/*.o |> (for i in %f; do echo \$i; done) > %o |> output

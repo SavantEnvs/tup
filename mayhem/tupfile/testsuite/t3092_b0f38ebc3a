@@ -1,0 +1,2 @@
+: <groupB> |> touch foo |> foo <groupA>
+: <groupA> |> touch bar |> bar <groupB>

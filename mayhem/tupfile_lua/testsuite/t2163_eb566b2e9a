@@ -1,0 +1,7 @@
+makevars = {}
+mylist = 'foo bar baz'
+lval = 'foo'
+for value in string.gmatch(mylist, "%S+") do
+	makevars[lval] += value
+end
+tup.rule('echo ' .. tostring(makevars[lval]))

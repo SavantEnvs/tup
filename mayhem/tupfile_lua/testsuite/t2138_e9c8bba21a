@@ -1,0 +1,1 @@
+tup.foreach_rule({'*.c'}, 'echo gcc -c %f -o %B.o')

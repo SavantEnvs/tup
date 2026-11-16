@@ -1,0 +1,4 @@
+outputs += 'foo.txt'
+outputs += 'bar.txt'
+outputs.extra_outputs += 'extra.txt'
+tup.frule{command='sh ok.sh %o', outputs=outputs}

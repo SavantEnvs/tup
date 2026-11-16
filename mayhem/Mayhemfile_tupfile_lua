@@ -1,0 +1,9 @@
+project: savantenvs/tup
+target: tupfile_lua
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/tupfile_lua/testsuite
+cmds:
+  - cmd: /mayhem/fuzz_tup_parse lua @@
+    afl: true
+    timeout: 10

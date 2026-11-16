@@ -1,0 +1,2 @@
+CFLAGS_S += -DASM
+: foreach *.c *.S |> gcc \$(CFLAGS_%e) -c %f -o %o |> %B.o

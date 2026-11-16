@@ -1,0 +1,2 @@
+!foo = |> cat -v |>
+: foreach *.c |> !foo "%f" > "%o" |> bin/%B

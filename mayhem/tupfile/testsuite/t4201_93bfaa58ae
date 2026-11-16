@@ -1,0 +1,3 @@
+export CCACHE_DIR
+: foreach foo.c |> ccache gcc -Ia -Ib -c %f -o %o |> %B.o
+: foo.o |> gcc %f -o %o |> foo.exe

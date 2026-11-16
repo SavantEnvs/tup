@@ -1,0 +1,4 @@
+!cc = foreach | %B.h |> gcc -c %f -o %o |> %B.o
+
+: |> echo '#define FOO 3' > %o |> foo.h
+: foo.c |> !cc |>

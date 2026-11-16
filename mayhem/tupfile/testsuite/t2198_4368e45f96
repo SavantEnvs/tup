@@ -1,0 +1,2 @@
+: |> touch "a b" |> "a b"
+: "a b" |> touch "c d" |> "c d"

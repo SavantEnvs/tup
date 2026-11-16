@@ -1,0 +1,4 @@
+: |> sh ctrlctup-$mypid.sh 2.0 && touch %o |> outfile
+: |> touch %o |> foo
+: |> touch %o |> bar
+: |> touch %o |> baz

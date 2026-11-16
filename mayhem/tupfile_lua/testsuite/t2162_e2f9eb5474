@@ -1,0 +1,3 @@
+objs = tup.foreach_rule('*.c', 'gcc -c %f -o %o', '%B.o')
+objs += 'foo.o'
+tup.rule(objs, 'gcc %f -o %o', 'prog.exe')

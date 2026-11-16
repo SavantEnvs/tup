@@ -1,0 +1,4 @@
+: |> sh run-unlink.sh |>
+: |> sh run-unlink2.sh |> u2.txt
+: |> sh run-rename.sh |> fooout.txt
+: |> sh run-mv.sh |> barout.txt

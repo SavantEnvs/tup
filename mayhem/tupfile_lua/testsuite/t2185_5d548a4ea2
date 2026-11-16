@@ -1,0 +1,2 @@
+tup.include('rules.lua')
+cc_linux('*.c')

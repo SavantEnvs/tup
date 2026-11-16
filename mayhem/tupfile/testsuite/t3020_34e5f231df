@@ -1,0 +1,3 @@
+file-y = foo.c
+file-@(BAR) += bar.c
+: foreach \$(file-y) |> cat %f > %o |> %B.o

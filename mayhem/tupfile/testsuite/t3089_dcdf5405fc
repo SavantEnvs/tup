@@ -1,0 +1,2 @@
+: <group> |> touch %o |> out2.txt <group2>
+: <group2> |> touch %o |> final.txt <final>

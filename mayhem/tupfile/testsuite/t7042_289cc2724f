@@ -1,0 +1,3 @@
+srcs-@(FOO) += foo.c
+srcs-@(BAR) += bar.c
+: foreach \$(srcs-y) |> gcc -c %f -o %o |> %B.o

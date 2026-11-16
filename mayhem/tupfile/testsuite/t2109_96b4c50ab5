@@ -1,0 +1,2 @@
+&subdir = sub
+: lib.a |> cp lib.a %o |> &(subdir)/out.a

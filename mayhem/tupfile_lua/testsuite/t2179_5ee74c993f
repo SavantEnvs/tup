@@ -1,0 +1,2 @@
+tup.foreach_rule('*.c', 'gcc -c %f -o %o', {'%B.o', '<objs>'})
+tup.rule('<objs>', 'gcc %<objs> -o %o', 'prog.exe')

@@ -1,0 +1,3 @@
+: |> touch %o |> foo <group>
+: |> touch %o |> bar <group2>
+: <group> <group2> |> (for i in \`cat %<group>.res\`; do echo "Group1: \$i"; done; for i in \`cat %<group2>.res\`; do echo "Group2: \$i"; done; for i in \`cat %<group>.res\`; do echo "Group1again: \$i"; done) > %o |> files.txt

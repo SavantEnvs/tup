@@ -1,0 +1,2 @@
+: |> echo hey > %o |> foo/bar/new/baz.txt <txt>
+: |> sh ok.sh |>

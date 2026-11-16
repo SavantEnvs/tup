@@ -1,0 +1,2 @@
+: foreach *.html |> !tup_preserve |>
+: file2.html |> cat file2.html > %o |> out.html

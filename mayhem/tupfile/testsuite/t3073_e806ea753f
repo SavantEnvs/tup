@@ -1,0 +1,1 @@
+: <txt> <objs> |> gcc %<objs> -o %o |> myprog.exe

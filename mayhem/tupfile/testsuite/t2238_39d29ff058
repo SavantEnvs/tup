@@ -1,0 +1,3 @@
+files = foo.c bar.c
+other_files += baz.c boo.c
+include rules.lua

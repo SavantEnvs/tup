@@ -1,0 +1,10 @@
+ifeq (@(FOO),y)
+: |> foo y |>
+ifeq (@(BAR),y)
+: |> foobar y |>
+else
+: |> foo y bar n |>
+endif
+else
+: |> foo n |>
+endif

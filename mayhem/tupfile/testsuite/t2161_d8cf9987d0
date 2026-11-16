@@ -1,0 +1,5 @@
+CFLAGS += -DFOO
+CFLAGS += -DBAR
+CFLAGS += -DBAZ
+CC = gcc
+include build.lua

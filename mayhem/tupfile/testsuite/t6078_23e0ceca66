@@ -1,0 +1,4 @@
+: |> if [ -f gen/ghost.txt ]; then cat gen/ghost.txt; fi && touch %o |> gen/sub/output.txt
+: |> touch %o |> normal.txt
+: |> touch %o |> gen/sub/output2.txt
+: gen/sub/*.txt |> cat %f > %o |> final.txt

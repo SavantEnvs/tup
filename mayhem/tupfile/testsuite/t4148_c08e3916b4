@@ -1,0 +1,4 @@
+: |> ^o sh ok.sh^ sh ok.sh |> a b c
+: a |> readlink a |>
+: b |> readlink b |>
+: c |> readlink c |>

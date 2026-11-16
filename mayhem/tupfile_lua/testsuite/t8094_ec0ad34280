@@ -1,0 +1,2 @@
+tup.rule({'file.txt'}, '!tup_preserve')
+tup.rule('file.txt', 'bash gen.sh %f %o', 'out.txt')

@@ -1,0 +1,5 @@
+!echo = |> echo text |>
+
+: |> !echo |>
+: |> !echo foo |>
+: |> !echo bar baz |>

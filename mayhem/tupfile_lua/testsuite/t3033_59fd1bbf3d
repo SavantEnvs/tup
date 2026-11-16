@@ -1,0 +1,28 @@
+function build_objs(t, lib)
+	objs = {}
+	for k, v in pairs(t) do
+		if not objs[v] then
+			objs[v] = 1
+			cc_rule(v)
+		end
+	end
+	return tup.rule(t, 'ld -r %f -o %o', lib)
+end
+
+function cc_rule(obj)
+	basename = string.match(obj, '(.*)%..*')
+	expanded_objs = _G[basename .. '_y']
+	if expanded_objs then
+		return build_objs(expanded_objs, obj)
+	end
+	return tup.rule(basename .. '.c', 'gcc -c %f -o %o', obj)
+end
+
+obj_y += 'foo.o'
+obj_y += 'foo.o'
+obj_y += 'bar.o'
+bar_y += 'bar1.o'
+bar_y += 'bar1.o'
+bar_y += 'bar2.o'
+
+build_objs(obj_y, 'built-in.o')

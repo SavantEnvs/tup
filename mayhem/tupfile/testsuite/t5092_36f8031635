@@ -1,0 +1,3 @@
+: |> sh run.sh output.txt |> output.txt ^/ignore <group>
+: |> sh run.sh output2.txt |> output2.txt ^/ignore <group>
+: <group> |> cat output.txt output2.txt |>

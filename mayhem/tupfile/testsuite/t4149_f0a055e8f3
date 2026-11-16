@@ -1,0 +1,3 @@
+: |> ^o sh ok.sh^ sh ok.sh |> a/out.txt b/out.txt
+: a/out.txt |> cat a/out.txt |>
+: b/out.txt |> cat b/out.txt |>

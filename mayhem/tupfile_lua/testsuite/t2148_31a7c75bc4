@@ -1,0 +1,3 @@
+CFLAGS += '-DFOO'
+CFLAGS += '-DBAR'
+print("My cflags are: ", tostring(CFLAGS))

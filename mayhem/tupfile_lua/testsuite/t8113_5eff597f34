@@ -1,0 +1,3 @@
+CFLAGS += "getcwd=" .. tup.getcwd()
+CFLAGS += "getvariantdir=" .. tup.getvariantdir()
+CFLAGS += "getvariantoutputdir=" .. tup.getvariantoutputdir()

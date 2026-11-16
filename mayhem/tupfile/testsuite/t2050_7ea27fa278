@@ -1,0 +1,2 @@
+: |> echo blah > %o |> foo.h {headers}
+: foreach *.c | {headers} |> echo gcc -c %f -o %o |> %B.o

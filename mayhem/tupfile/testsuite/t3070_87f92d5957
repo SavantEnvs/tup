@@ -1,0 +1,3 @@
+: |> touch foo |> foo <group>
+: <group> |> touch bar |> bar
+: bar |> cat foo bar |>

@@ -1,0 +1,2 @@
+: |> sh ok.sh |> foo
+: |> touch bar |> bar

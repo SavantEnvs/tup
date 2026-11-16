@@ -1,0 +1,2 @@
+import CC
+: foreach *.c |> \$(CC) -c %f -o %o |> %B.o

@@ -1,0 +1,1 @@
+: |> touch %o && touch .git/index-lock |> out ^\.git

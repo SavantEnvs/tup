@@ -1,0 +1,4 @@
+: |> echo "asdf" > a |> a <foo>
+: |> echo "fdsa" > b |> b <foo>
+
+: <foo> |> cat %<foo> > c |> c

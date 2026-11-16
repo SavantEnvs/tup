@@ -1,0 +1,4 @@
+!macro = | <group> |> cat foo.txt && touch %o |>
+: |> touch %o |> foo.txt <group>
+: |> !macro |> out1
+: |> !macro |> out2

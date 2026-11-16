@@ -1,0 +1,2 @@
+: foreach *.in |> cp %'f %'o |> %B.outsingle
+: foreach Don*.in |> cp %"f %"o |> %B.outdouble

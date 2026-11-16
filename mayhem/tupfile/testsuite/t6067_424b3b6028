@@ -1,0 +1,1 @@
+: foreach foo.c |> gcc -c %f -o %o |> %o

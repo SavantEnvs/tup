@@ -1,0 +1,6 @@
+# The first rule is a dummy rule for helgrind to make sure we aren't accessing
+# entry structures in process_output() and from fuse at the same time. IOW: We
+# can't use tup_entry for exclusions because fuse needs to use them, and we
+# can't lock the db from fuse.
+: |> sh tmp.sh |>
+: |> sh run.sh |> output.txt ^exclude.txt

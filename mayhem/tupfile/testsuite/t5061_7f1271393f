@@ -1,0 +1,1 @@
+: |> echo 'CFLAGS += bar' > %o |> Tuprules.tup

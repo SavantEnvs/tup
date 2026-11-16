@@ -1,0 +1,8 @@
+ifeq (@(FOO),1)
+: |> echo foo |>
+else
+: |> echo bar |>
+endif
+ifeq (@(BAZ),1)
+: |> echo baz |>
+endif

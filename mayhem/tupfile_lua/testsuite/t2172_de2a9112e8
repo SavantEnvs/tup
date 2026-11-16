@@ -1,0 +1,1 @@
+tup.rule("echo " .. tup.getrelativedir(myroot))

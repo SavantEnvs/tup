@@ -1,0 +1,1 @@
+tup.rule('touch a.txt', {'a.txt'})

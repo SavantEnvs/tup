@@ -1,0 +1,2 @@
+: |> touch %o |> foo.txt
+: bar.txt |> !tup_preserve |>

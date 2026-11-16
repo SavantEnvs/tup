@@ -1,0 +1,3 @@
+: |> touch %o |> out/dir/foo.txt
+: |> touch %o |> out/bar.txt
+: |> touch %o |> out/dir/baz.txt

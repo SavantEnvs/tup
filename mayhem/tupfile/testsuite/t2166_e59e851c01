@@ -1,0 +1,1 @@
+: foreach [abc]_?ext.* |> touch %g_binary.t |> %g_binary.t

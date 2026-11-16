@@ -1,0 +1,2 @@
+: |> touch %o |> baz.c
+: foreach *.c |> gcc -c %f -o %o |> %B.o

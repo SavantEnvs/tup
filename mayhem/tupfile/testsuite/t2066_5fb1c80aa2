@@ -1,0 +1,6 @@
+obj-@(FOO) += foo.c
+: foreach \$(obj-y) |> gcc -c %f -o %o |> %B.o {objs}
+
+!ld = |> gcc -Wl,-r %f -o %o |>
+!ld.EMPTY = |> ar crs %o |>
+: {objs} |> !ld |> built-in.o

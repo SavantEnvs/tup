@@ -1,0 +1,6 @@
+tup.import('MARFNOEXIST')
+if MARNOEXIST then
+tup.rule('bad')
+else
+tup.rule('good')
+end

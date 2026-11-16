@@ -1,0 +1,2 @@
+: |> cat sub/foo 2>/dev/null || true; touch bar |> bar
+: bar |> cat bar 2>/dev/null; touch sub |> sub

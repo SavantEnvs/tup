@@ -1,0 +1,2 @@
+preload sub
+run sh -e ok.sh

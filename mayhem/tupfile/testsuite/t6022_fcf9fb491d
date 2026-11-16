@@ -1,0 +1,2 @@
+: |> echo yo > %o |> foo
+: |> echo hey > %o |> foo

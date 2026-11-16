@@ -1,0 +1,1 @@
+tup.foreach_rule('*.txt', '!tup_ln', '%B.lnk')

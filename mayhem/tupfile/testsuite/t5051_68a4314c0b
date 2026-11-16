@@ -1,0 +1,2 @@
+: |> echo '#define FOO 3' > %o |> foo.h
+: |> echo '#define BAR 3' > %o |> bar.h

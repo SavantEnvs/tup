@@ -1,0 +1,2 @@
+: |> sh run.sh %o |> output.txt ^/ignore
+: |> sh run.sh %o |> output2.txt ^/ignore

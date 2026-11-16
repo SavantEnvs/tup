@@ -1,0 +1,1 @@
+tup.definerule{command = 'cp ' .. toolkit_lib .. ' lib_copy.a', outputs = {'lib_copy.a'}}

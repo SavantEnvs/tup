@@ -1,0 +1,3 @@
+: |> echo foo > %o |> file1
+: |> echo foo2 > %o |> file2
+: |> echo bar > %o |> file3

@@ -1,0 +1,3 @@
+: |> sh run.sh /etc/resolv.conf %o |> out.txt ^/resolv.conf
+: |> sh run.sh /run/systemd/resolve/resolv.conf %o |> out2.txt ^/resolv.conf
+: |> sh run.sh /var/run/systemd/resolve/resolv.conf %o |> out3.txt ^/resolv.conf

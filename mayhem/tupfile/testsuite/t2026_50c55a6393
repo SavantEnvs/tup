@@ -1,0 +1,5 @@
+: foreach \$(srcs) |> nope |> %B.o
+: \$(objs) |> not gonna work |> prog
+: \$(objs) | order.h |> also not gonna work |> prog2
+: | order.h |> this should work |> prog3
+: |> echo foo > %o |> bar

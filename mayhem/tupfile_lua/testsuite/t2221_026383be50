@@ -1,0 +1,3 @@
+CC = 'gcc'
+CCARGS = '-DFOO=1'
+CCARGS += '-DBAR=1'

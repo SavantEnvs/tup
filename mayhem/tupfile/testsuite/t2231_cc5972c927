@@ -1,0 +1,7 @@
+ifdef CONFIG_FOO
+srcs += foo.c
+endif
+ifdef CONFIG_BAR
+srcs += bar.c
+endif
+: foreach \$(srcs) |> gcc -c %f -o %o |> %B.o

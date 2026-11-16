@@ -1,0 +1,2 @@
+: |> touch %o |> foo/bar/out.txt
+: foo/bar/*.txt foo/baz/*.txt |> cat %f > %o |> output.txt

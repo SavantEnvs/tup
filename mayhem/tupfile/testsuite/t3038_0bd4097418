@@ -1,0 +1,1 @@
+!cc | foo.h |> gcc -c %f -o %o |>

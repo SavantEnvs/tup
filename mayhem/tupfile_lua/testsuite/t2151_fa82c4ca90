@@ -1,0 +1,3 @@
+files = {'*.c'}
+files.extra_inputs = tup.rule('echo blah > %o', {'foo.h'})
+tup.foreach_rule(files, 'gcc -c %f -o %o', '%B.o')

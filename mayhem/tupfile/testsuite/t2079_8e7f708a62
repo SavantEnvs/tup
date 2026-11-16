@@ -1,0 +1,5 @@
+!cc = |> gcc -c %f -o %o |>
+ifeq (1,2)
+: a.c |> !cc |> a.o
+endif #foo == 2
+: b.c |> !cc |> b.o

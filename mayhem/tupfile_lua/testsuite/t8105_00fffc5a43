@@ -1,0 +1,2 @@
+tup.rule({}, 'if [ -e a/foo.txt ]; then echo yes; else echo no; fi', {})
+tup.rule({'a/bar.o', 'a/b/foo.o', 'c/zap.o'}, 'gcc %f -o %o', 'prog')

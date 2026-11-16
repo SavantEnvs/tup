@@ -1,0 +1,7 @@
+local f = assert(io.open('data.txt', 'r'))
+local outputs = {}
+for line in f:lines() do
+	outputs += line
+end
+f:close()
+tup.rule({}, 'touch %o', outputs)

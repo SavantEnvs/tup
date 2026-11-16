@@ -1,0 +1,2 @@
+include_rules
+: foreach *.h.in |> !headergen |>

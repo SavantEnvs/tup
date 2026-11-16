@@ -1,0 +1,3 @@
+local f = assert(io.open('data.txt', 'w'))
+f:write('hey there')
+f:close()

@@ -1,0 +1,2 @@
+import MARFNOEXIST=defaultval
+: |> Var is: \$(MARFNOEXIST) end |>

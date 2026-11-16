@@ -1,0 +1,2 @@
+: |> touch foo bar |> foo bar
+: bar |> cat foo bar |>
